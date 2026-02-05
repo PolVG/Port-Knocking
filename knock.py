@@ -3,7 +3,7 @@ import time
 import sys
 
 if len(sys.argv) < 3:
-    print("Usage: python knock.py <target_ip> <port1> <port2> ...")
+    print("Usage: python3 knock.py <target_ip> <port1> <port2> ...")
     sys.exit(1)
 
 target_ip = sys.argv[1]
